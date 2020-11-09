@@ -13,7 +13,7 @@ Hardware:
 1 x ESP32 MCU
 1 x BME280 module
 1 x BN-880 module
-1 x 128x64 0.96 inch OLED module
+1 x 132x64 0.96 inch OLED module
 1 x Micro SD card module
 1 x LiPo battery
 1 x TP4056 battery charge module
