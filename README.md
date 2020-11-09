@@ -22,3 +22,5 @@ Hardware:
 2 x micro slide switch
 1 x power plug adapter
 various resistors and capacitors
+
+Circuite file: KiCAD format
