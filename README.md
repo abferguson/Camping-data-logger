@@ -23,4 +23,9 @@ Hardware:
 1 x power plug adapter
 various resistors and capacitors
 
-Circuite file: KiCAD format
+Circuit file: KiCAD format
+
+Features:
+Power switch (inside to connect battery to circuitry)
+Slide switch to turn on OLED and place unit in real time sense and display mode
+Power port for solar cell supply
