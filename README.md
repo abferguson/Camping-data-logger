@@ -26,14 +26,14 @@ various resistors and capacitors
 2 x Solar cells (Amazon https://smile.amazon.com/gp/product/B0736W4HK1)  
 Several JST connectors  
 
-Circuit schematic: KiCAD format
+Circuit schematic: KiCAD format  
 One of the linear power regulators provides 3.3v power to the GPS unit. The other powers everything else.  
 The transistors are used to switch on power to the SD and GPS units when required. Otherwise, they are off.  
 
 Features:  
 Power switch (inside of main body connects battery to circuitry)  
 Slide switch inside slide cover turns on OLED and places unit in real time display mode  
-Power port for solar cell supply 
+Power port for solar cell supply  
 
 Operation:  
 Once the main power switch is on, the unit begins recording environmental and GPS data every ten minutes.
