@@ -9,21 +9,21 @@ This device uses the ESP32 mainly for its built-in Bluetooth capability. This fe
 
 Firmware development: Arduino IDE
 
-Hardware:
-1 x ESP32 MCU
-1 x BME280 module
-1 x BN-880 module
-1 x 132x64 0.96 inch OLED module
-1 x Micro SD card module
-1 x LiPo battery
-1 x TP4056 battery charge module
-2 x 2N2222 transistor
-2 x MCP1700-3302E linear power regulator
-2 x micro slide switch
-1 x power plug adapter
-various resistors and capacitors
-1 x Circuit Setup protoboard (Amazon)
-Several JST connectors
+Hardware:  
+1 x ESP32 MCU  
+1 x BME280 module  
+1 x BN-880 module  
+1 x 132x64 0.96 inch OLED module  
+1 x Micro SD card module  
+1 x LiPo battery  
+1 x TP4056 battery charge module  
+2 x 2N2222 transistor  
+2 x MCP1700-3302E linear power regulator  
+2 x micro slide switch  
+1 x power plug adapter  
+various resistors and capacitors  
+1 x Circuit Setup protoboard (Amazon)  
+Several JST connectors  
 
 Circuit schematic: KiCAD format
 
