@@ -22,10 +22,26 @@ Hardware:
 2 x micro slide switch
 1 x power plug adapter
 various resistors and capacitors
+1 x Circuit Setup protoboard (Amazon)
+Several JST connectors
 
-Circuit file: KiCAD format
+Circuit schematic: KiCAD format
 
 Features:
 Power switch (inside to connect battery to circuitry)
 Slide switch to turn on OLED and place unit in real time sense and display mode
 Power port for solar cell supply
+
+Notes:
+4 - 3mm x 6mm screws needed to attach side base to case bottom
+2 - 2mm x 5mm screws attach solar cell case bezels to solar cell case frame
+3 - 3mm x 6mm screws to attach battery cage to inside frame
+2 - 2mm x 5mm screws attache SD module to inside frame
+LiPo battery cage is designed for 504040 size
+
+Assembly:
+LiPo battery is captured by battery cage, screw fastened
+TP4056, OLED display and GPS modules snap onto either inside frame or case top
+SD module is fastened to inside frame with screws
+BME280 module soldered to female header (2.54 mm) and plugs into a pin header (male)
+
