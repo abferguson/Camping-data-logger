@@ -10,8 +10,8 @@ This device uses the ESP32 mainly for its built-in Bluetooth capability. This fe
 Firmware development: Arduino IDE
 
 Hardware:  
-1 x ESP32 MCU  
-1 x BME280 module  
+1 x ESP32 MCU + female headers  
+1 x BME280 module * female header  
 1 x BN-880 module  
 1 x 132x64 0.96 inch OLED module  
 1 x Micro SD card module  
@@ -28,9 +28,27 @@ Several JST connectors
 Circuit schematic: KiCAD format
 
 Features:  
-Power switch (inside to connect battery to circuitry)  
-Slide switch to turn on OLED and place unit in real time sense and display mode  
-Power port for solar cell supply  
+Power switch (inside of main body connects battery to circuitry)  
+Slide switch inside slide cover turns on OLED and places unit in real time display mode  
+Power port for solar cell supply 
+
+Operation:  
+Once the main power switch is on, the unit begins recording environemental and GPS data every ten minutes.
+When the interactive slide switch, located behind the sliding cover on the side, is on, two modes are activated:
+  1) The unit retrieves the lates environmental data and displays on the OLED display.
+  2) Bluetooth is turned on for interactive queries.    
+
+Bluetooth:  
+Mobile Bluetooth app: Serial Bluetooth Terminal by Kai Morich ( Android v1.33 at time of writing)
+
+Set up 
+Query              Send value  
+Environmental      env  
+GPS coord          gps  
+Current Env        now  
+Help               help  
+Misc data          misc  
+Erase stored data  erase  
 
 Notes:  
 4 - 3mm x 6mm screws needed to attach side base to case bottom  
@@ -41,7 +59,8 @@ LiPo battery cage is designed for 504040 size
 
 Assembly:  
 LiPo battery is captured by battery cage, screw fastened  
-TP4056, OLED display and GPS modules snap onto either inside frame or case top  
+TP4056 snops onto inside frame  
+OLED display and GPS modules snap onto case top  
 SD module is fastened to inside frame with screws  
 BME280 module soldered to female header (2.54 mm) and plugs into a pin header (male)  
 
