@@ -1,5 +1,5 @@
 # Camping-data-logger
-A battery operated device that stores and allows realtime interaction temperature, humidity, barometric pressure, GPS coordinate and weather prediction data.
+A battery operated device that stores and allows realtime interaction temperature, humidity, barometric pressure, GPS coordinate and weather prediction data. The Zambretti algorithm for short term weather forecasting is used.  
 
 This repository contains information necessary to build an interactive data logger: CAD files, circuitry and software. This is the first version of this device. If I refine the design I will post on Github.
 
@@ -38,7 +38,7 @@ Features:
 Operation:  
 -  Once the main power switch is on, the unit begins recording environmental and GPS data every ten minutes.
 -  When the interactive slide switch, located behind the sliding cover on the side, is on, two modes are activated:
-    1) The unit retrieves the lates environmental data and displays on the OLED display.
+    1) The unit retrieves the lates environmental data, along with Zambretti forecast and battery voltage level, and displays on the OLED display.
     2) Bluetooth is turned on for interactive queries.  
 -  Turn interactive mode off to conserve battery power. The data recording function is disabled when in interactive mode.  
 -  The solar cells can be connected at any time.  
