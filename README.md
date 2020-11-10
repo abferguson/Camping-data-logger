@@ -15,7 +15,7 @@ Hardware:
 1 x BN-880 module (Amazon https://smile.amazon.com/gp/product/B07TY7PL54)    
 1 x 132x64 0.96 inch OLED module  
 1 x Micro SD card module  
-1 x LiPo battery (Amazon https://smile.amazon.com/gp/product/B07TWHH6VF)   
+1 x LiPo battery (1000 mAh,Amazon https://smile.amazon.com/gp/product/B07TWHH6VF)   
 1 x TP4056 battery charge module  
 2 x 2N2222 transistor  
 2 x MCP1700-3302E linear power regulator  
