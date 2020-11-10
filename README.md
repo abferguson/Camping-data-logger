@@ -71,7 +71,12 @@ Assembly:
 - BME280 module soldered to female header (2.54 mm) and plugs into a pin header (male)  
 
 Wiring: 
-Using JST 2.0 connectors, I tried to bring I2C and power to each switch, power plug or sensor so that the unit could be more easily assembled/disassembled. The main power switch is on the circuit board along with the discreet resistors, capacitors, transistors and linear power regulators.  
+Using JST 2.0 connectors, I tried to bring I2C and power to each switch, power plug or sensor so that the unit could be more easily assembled/disassembled. 
+The battery has its own connector allowing to completly disconnect the battery when not in use. Otherwise, the TP4056 module is still drawing power from the battery even when the system power switch is off.  
+The main power switch is on the circuit board along with the discreet resistors, capacitors, transistors and linear power regulators. 
+The GPS unit came with its own wiring harness and connector. The wires from the harness are soldered directly to the circuit board.  
+The BME280 is soldered to a female pin header. This header fits inside a rectangulare opening allowing a male pin header to connect to it inside the main box.  
+
 
 
 
