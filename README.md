@@ -31,22 +31,22 @@ One of the linear power regulators provides 3.3v power to the GPS unit. The othe
 The transistors are used to switch on power to the SD and GPS units when required. Otherwise, they are off.  
 
 Features:  
-Power switch (inside of main body connects battery to circuitry)  
-Slide switch inside slide cover turns on OLED and places unit in real time display mode  
-Power port for solar cell supply  
+  Power switch (inside of main body connects battery to circuitry)  
+  Slide switch inside slide cover turns on OLED and places unit in real time display mode  
+  Power port for solar cell supply  
 
 Operation:  
-Once the main power switch is on, the unit begins recording environmental and GPS data every ten minutes.
-When the interactive slide switch, located behind the sliding cover on the side, is on, two modes are activated:
-  1) The unit retrieves the lates environmental data and displays on the OLED display.
-  2) Bluetooth is turned on for interactive queries.  
-Turn interactive mode off to conserve battery power. The data recording function is disabled when in interactive mode.  
-The solar cells can be connected at any time.  
+  Once the main power switch is on, the unit begins recording environmental and GPS data every ten minutes.
+  When the interactive slide switch, located behind the sliding cover on the side, is on, two modes are activated:
+    1) The unit retrieves the lates environmental data and displays on the OLED display.
+    2) Bluetooth is turned on for interactive queries.  
+  Turn interactive mode off to conserve battery power. The data recording function is disabled when in interactive mode.  
+  The solar cells can be connected at any time.  
   
 Bluetooth:  
-Use a serial bluetooth app to communicate with the data logger.  One app I use is the Serial Bluetooth Terminal by Kai Morich ( Android v1.33 at time of writing)  
+  Use a serial bluetooth app to communicate with the data logger.  One app I use is the Serial Bluetooth Terminal by Kai Morich ( Android v1.33 at time of writing)  
 
-Once Bluetooth connectivity is established, sending a keyword from a mobile device to the logger will result in the logger returning a data set. This could be current conditions, stored data values, help instructions or miscellaneous data.  
+  Once Bluetooth connectivity is established, sending a keyword from a mobile device to the logger will result in the logger returning a data set. This could be current conditions, stored data values, help instructions or miscellaneous data.  
    
 Query type  --->    Send keyword value  
 Environmental --->  env  
