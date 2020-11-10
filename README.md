@@ -33,7 +33,6 @@ Slide switch to turn on OLED and place unit in real time sense and display mode
 Power port for solar cell supply
 
 Notes:
-
 4 - 3mm x 6mm screws needed to attach side base to case bottom
 2 - 2mm x 5mm screws attach solar cell case bezels to solar cell case frame
 3 - 3mm x 6mm screws to attach battery cage to inside frame
