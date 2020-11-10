@@ -41,7 +41,7 @@ When the interactive slide switch, located behind the sliding cover on the side,
   1) The unit retrieves the lates environmental data and displays on the OLED display.
   2) Bluetooth is turned on for interactive queries.  
 Turn interactive mode off to conserve battery power. The data recording function is disabled when in interactive mode.  
-Plug the 
+The solar cells can be connected at any time.  
   
 Bluetooth:  
 Use a serial bluetooth app to communicate with the data logger.  One app I use is the Serial Bluetooth Terminal by Kai Morich ( Android v1.33 at time of writing)  
@@ -70,6 +70,8 @@ OLED display and GPS modules snap onto case top
 SD module is fastened to inside frame with screws  
 BME280 module soldered to female header (2.54 mm) and plugs into a pin header (male)  
 
-Wiring:  
+Wiring: 
+Using JST 2.0 connectors, I tried to bring I2C and power to each switch, power plug or sensor so that the unit could be more easily assembled/disassembled. The main power switch is on the circuit board along with the discreet resistors, capacitors, transistors and linear power regulators.  
+
 
 
