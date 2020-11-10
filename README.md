@@ -48,13 +48,13 @@ Bluetooth:
 
 -  Once Bluetooth connectivity is established, sending a keyword from a mobile device to the logger will result in the logger returning a data set. This could be current conditions, stored data values, help instructions or miscellaneous data.  
    
-Query   --->    Send keyword
-Environmental --->  env  
-GPS coord --->      gps  
-Current Env --->    now  
-Help --->           help  
-Misc data --->      misc  
-Erase stored data ---> erase  
+Query   --->    Send keyword  
+-Environmental --->  env  
+-GPS coord --->      gps  
+-Current Env --->    now  
+-Help --->           help  
+-Misc data --->      misc  
+-Erase stored data ---> erase  
 
 Notes:  
 4 - 3mm x 6mm screws needed to attach side base to case bottom  
