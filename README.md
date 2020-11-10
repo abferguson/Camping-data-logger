@@ -48,13 +48,13 @@ Use a serial bluetooth app to communicate with the data logger.  One app I use i
 
 Once Bluetooth connectivity is established, sending a keyword from a mobile device to the logger will result in the logger returning a data set. This could be current conditions, stored data values, help instructions or miscellaneous data.  
    
-Query type         Send keyword value  
-Environmental      env  
-GPS coord          gps  
-Current Env        now  
-Help               help  
-Misc data          misc  
-Erase stored data  erase  
+Query type            Send keyword value  
+Environmental         env  
+GPS coord             gps  
+Current Env           now  
+Help                  help  
+Misc data             misc  
+Erase stored data     erase  
 
 Notes:  
 4 - 3mm x 6mm screws needed to attach side base to case bottom  
