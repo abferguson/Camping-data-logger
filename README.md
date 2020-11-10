@@ -37,12 +37,13 @@ Once the main power switch is on, the unit begins recording environemental and G
 When the interactive slide switch, located behind the sliding cover on the side, is on, two modes are activated:
   1) The unit retrieves the lates environmental data and displays on the OLED display.
   2) Bluetooth is turned on for interactive queries.    
-
+  
 Bluetooth:  
 Mobile Bluetooth app: Serial Bluetooth Terminal by Kai Morich ( Android v1.33 at time of writing)
 
-Set up 
-Query              Send value  
+Once Bluetooth connectivity is established, sending a keyword from a mobile device to the logger will result in the logger returning a data set. This could be current conditions, stored data values, help instructions or miscellaneous data.  
+   
+Query type         Send keyword value  
 Environmental      env  
 GPS coord          gps  
 Current Env        now  
@@ -63,4 +64,6 @@ TP4056 snops onto inside frame
 OLED display and GPS modules snap onto case top  
 SD module is fastened to inside frame with screws  
 BME280 module soldered to female header (2.54 mm) and plugs into a pin header (male)  
+
+
 
