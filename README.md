@@ -11,21 +11,24 @@ Firmware development: Arduino IDE
 
 Hardware:  
 1 x ESP32 MCU + female headers  
-1 x BME280 module * female header  
-1 x BN-880 module  
+1 x BME280 module (I2C) * female header  
+1 x BN-880 module (Amazon https://smile.amazon.com/gp/product/B07TY7PL54)    
 1 x 132x64 0.96 inch OLED module  
 1 x Micro SD card module  
-1 x LiPo battery  
+1 x LiPo battery (Amazon https://smile.amazon.com/gp/product/B07TWHH6VF)   
 1 x TP4056 battery charge module  
 2 x 2N2222 transistor  
 2 x MCP1700-3302E linear power regulator  
-2 x micro slide switch  
-1 x power plug adapter  
+2 x SPDT slide switch (https://smile.amazon.com/gp/product/B01M1CU2B0)  
+1 x power plug adapter (Amazon https://smile.amazon.com/gp/product/B089M7B481) 
 various resistors and capacitors  
-1 x Circuit Setup protoboard (Amazon https://smile.amazon.com/gp/product/B07HNKJNK3)  
+1 x Circuit Setup protoboard (Amazon https://smile.amazon.com/gp/product/B07HNKJNK3) 
+2 x Solar cells (Amazon https://smile.amazon.com/gp/product/B0736W4HK1)  
 Several JST connectors  
 
 Circuit schematic: KiCAD format
+One of the linear power regulators provides 3.3v power to the GPS unit. The other powers everything else.  
+The transistors are used to switch on power to the SD and GPS units when required. Otherwise, they are off.  
 
 Features:  
 Power switch (inside of main body connects battery to circuitry)  
@@ -33,13 +36,15 @@ Slide switch inside slide cover turns on OLED and places unit in real time displ
 Power port for solar cell supply 
 
 Operation:  
-Once the main power switch is on, the unit begins recording environemental and GPS data every ten minutes.
+Once the main power switch is on, the unit begins recording environmental and GPS data every ten minutes.
 When the interactive slide switch, located behind the sliding cover on the side, is on, two modes are activated:
   1) The unit retrieves the lates environmental data and displays on the OLED display.
-  2) Bluetooth is turned on for interactive queries.    
+  2) Bluetooth is turned on for interactive queries.  
+Turn interactive mode off to conserve battery power. The data recording function is disabled when in interactive mode.  
+Plug the 
   
 Bluetooth:  
-Mobile Bluetooth app: Serial Bluetooth Terminal by Kai Morich ( Android v1.33 at time of writing)
+Use a serial bluetooth app to communicate with the data logger.  One app I use is the Serial Bluetooth Terminal by Kai Morich ( Android v1.33 at time of writing)  
 
 Once Bluetooth connectivity is established, sending a keyword from a mobile device to the logger will result in the logger returning a data set. This could be current conditions, stored data values, help instructions or miscellaneous data.  
    
