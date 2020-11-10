@@ -22,7 +22,7 @@ Hardware:
 2 x micro slide switch  
 1 x power plug adapter  
 various resistors and capacitors  
-1 x Circuit Setup protoboard (Amazon)  
+1 x Circuit Setup protoboard (Amazon https://smile.amazon.com/gp/product/B07HNKJNK3)  
 Several JST connectors  
 
 Circuit schematic: KiCAD format
@@ -65,5 +65,6 @@ OLED display and GPS modules snap onto case top
 SD module is fastened to inside frame with screws  
 BME280 module soldered to female header (2.54 mm) and plugs into a pin header (male)  
 
+Wiring:  
 
 
