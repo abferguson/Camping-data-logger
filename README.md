@@ -5,7 +5,7 @@ This repository contains information necessary to build an interactive data logg
 
 I've made many camping trips into wilderness areas. While an inexpensive plastic thermometer is handy to know the current temperature, more data can be quite helpful. It can be used for selection of clothing as well as post-trip curiosity. This project is my first attempt at creating a data logger for camping.
 
-This device uses the ESP32 mainly for its built-in Bluetooth capability. This feature allows you to use a cell phone to query the data logger (Bluetooth serial) for saved data. The sensors used are the BME280 and BN-880 GPS modules. While powered with a lithium polymer batter, inclusion of the TP4056 provides solar recharging. An onboard OLED display provides current conditions.
+This device uses the ESP32 mainly for its built-in Bluetooth capability. This feature allows you to use a cell phone to query the data logger (Bluetooth serial) for saved data. The sensors used are the BME280 and BN-880 GPS modules. While powered with a lithium polymer batter, inclusion of the TP4056 provides solar recharging. An onboard OLED or epaper display provides current conditions.
 
 Firmware development: Arduino IDE
 
@@ -13,7 +13,8 @@ Hardware:
 1 x ESP32 MCU + female headers  
 1 x BME280 module (I2C) * female header  
 1 x BN-880 module (Amazon https://smile.amazon.com/gp/product/B07TY7PL54)    
-1 x 132x64 0.96 inch OLED module  
+1 x 132x64 0.96 inch OLED module  (version 10)
+1 x 2.9inch e-Paper Display Module, 296x128 (version 11)
 1 x Micro SD card module  
 1 x LiPo battery (1000 mAh,Amazon https://smile.amazon.com/gp/product/B07TWHH6VF)   
 1 x TP4056 battery charge module  
@@ -26,7 +27,7 @@ various resistors and capacitors
 2 x Solar cells (Amazon https://smile.amazon.com/gp/product/B0736W4HK1)  
 Several JST connectors  
 
-Circuit schematic: KiCAD format  
+Circuit schematics: KiCAD format  
 One of the linear power regulators provides 3.3v power to the GPS unit. The other powers everything else.  
 The transistors are used to switch on power to the SD and GPS units when required. Otherwise, they are off.  
 
@@ -66,7 +67,7 @@ LiPo battery cage is designed for 504040 size
 Assembly:  
 - LiPo battery is captured by battery cage, screw fastened  
 - TP4056 snops onto inside frame  
-- OLED display and GPS modules snap onto case top  
+- OLED or epaper displays and GPS modules snap onto case top  
 - SD module is fastened to inside frame with screws  
 - BME280 module soldered to female header (2.54 mm) and plugs into a pin header (male)  
 
