@@ -1,7 +1,7 @@
 # Camping-data-logger
 A battery operated device that stores and allows realtime interaction temperature, humidity, barometric pressure, GPS coordinate and weather prediction data. The Zambretti algorithm for short term weather forecasting is used.  
 
-This repository contains information necessary to build an interactive data logger: CAD files, circuitry and software. This is the first version of this device. If I refine the design I will post on Github.
+This repository contains information necessary to build an interactive data logger: CAD files, circuitry and software. Both an OLED and epaper display version are presented here. Any files representing v10 is in reference to the OLED version.
 
 I've made many camping trips into wilderness areas. While an inexpensive plastic thermometer is handy to know the current temperature, more data can be quite helpful. It can be used for selection of clothing as well as post-trip curiosity. This project is my first attempt at creating a data logger for camping.
 
